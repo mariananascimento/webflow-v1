@@ -1718,6 +1718,10 @@ figcaption {
     grid-row-gap: 0px;
   }
 
+  .work-thumb.work-cover.palette-nubank {
+    margin-bottom: 30px;
+  }
+
   .work-image.work-cover-image {
     object-fit: cover;
   }
@@ -1851,9 +1855,19 @@ figcaption {
     grid-template-columns: 1fr;
   }
 
-  .work-thumb.work-cover, .work-thumb.work-cover.palette-nubank {
+  .work-thumb.work-cover {
     height: auto;
     padding-top: 66.666%;
+  }
+
+  .work-thumb.work-cover.palette-nubank {
+    height: auto;
+    margin-bottom: 30px;
+    padding-top: 66.666%;
+  }
+
+  .work-thumb.work-cover.palette-creditas {
+    margin-bottom: 30px;
   }
 
   .label-container {
@@ -1862,6 +1876,11 @@ figcaption {
 
   .block-quote {
     line-height: 1.25em;
+  }
+
+  .backround-gif.backround-creditas {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
