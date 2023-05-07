@@ -1309,6 +1309,12 @@ figcaption {
   height: 500px;
 }
 
+.background-video {
+  width: 200px;
+  height: 200px;
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .styleguide-block {
     text-align: center;
